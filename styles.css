@@ -9,12 +9,13 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    height: 40px;
+    height: 70px;
     position: fixed;
     width: 100%;
     height: 40px;
     box-shadow: 0px 0px 5px;
-    background-color:cadetblue;
+    background-color:rgb(141, 190, 192);
+    padding: 20px;
 }
 section.home{
     background-size: cover;
@@ -70,13 +71,39 @@ section.home{
     font-size: 24px;
     color: white;
 }
-.banner a{
-    color:blueviolet;
-    font-size: 24px;
+.halaman a{
+    color:rgb(43, 67, 226);
+    font-size: 30px;
 }
-.nav a{
+.tentang{
+    color: rgb(43, 67, 226);
+    font-size: 30px;
+}
+.prosedur{
+    color:rgb(43, 67, 226);
+    font-size: 30px;
+}
+.akun{
+    color:rgb(43, 67, 226);
+    font-size: 30px;
+}
+nav a{
     color:blanchedalmond;
     font-size: 20px;
+    border-radius: 20px 0px 20px 0px;
+    text-decoration: none;
+    transition: 1s;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(22, 75, 57);
+    font-family: audiowide;
+}
+nav a:hover{
+    color:#ffffff62;
+    background-color: blanchedalmond;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 5px 5px 5px -2px black;
+    padding: 7px 20px;
+    transition: 0.5s;
 }
 p{
     text-align: justify;
@@ -86,4 +113,9 @@ p{
 }
 .introabout{
     background-color: bisque;
+}
+.banner{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
 }
