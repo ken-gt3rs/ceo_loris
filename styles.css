@@ -79,13 +79,17 @@ section.home{
     color: rgb(43, 67, 226);
     font-size: 30px;
 }
-.prosedur{
-    color:rgb(43, 67, 226);
-    font-size: 30px;
+.howto{
+    color:black;
+    font-size:14px;
+    padding: 10px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
-.akun{
-    color:rgb(43, 67, 226);
-    font-size: 30px;
+.profile{
+    color: black;
+    font-size: 17px;
+    padding-bottom: 75px;
 }
 nav a{
     color:blanchedalmond;
@@ -110,12 +114,19 @@ p{
 }
 .about{
     margin: 20px;
+    padding-top: 75px;
+    height: 100px;
 }
 .introabout{
     background-color: bisque;
+    padding: 10px;
 }
 .banner{
     color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+}
+.whatsapp{
+    padding: 20px;
+    color: red;
 }
